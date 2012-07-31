@@ -1,0 +1,5 @@
+protobuf-client/target/*
+protobuf/target/*
+protobuf-services/target/*
+*/.idea/*
+*/*.iml

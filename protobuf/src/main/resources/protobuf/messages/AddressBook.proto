@@ -1,0 +1,10 @@
+package pl.touk.workshop.protobuf.messages;
+
+option java_package = "pl.touk.workshop.protobuf.messages";
+option java_outer_classname = "AddressBookMessage";
+
+import "messages/Person.proto";
+
+message AddressBook {
+    repeated Person person = 1;
+}
